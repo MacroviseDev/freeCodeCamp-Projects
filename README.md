@@ -1,5 +1,5 @@
 # freeCodeCamp Projects
-Collection of all the projects I did from the freeCodeCamp curriculum.
+Collection of all the projects I've built from the freeCodeCamp curriculum.
 
 ## Responsive Web Design
 1. Build a Survey Form
