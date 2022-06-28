@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(22, 22, 22);
+    background-color: beige;
+}
+
+nav {
+    position: fixed;
+    min-width: 290px;  
+    left: 10px;
+    width: 300px;
+    height: 100%;
+}
+
+main {
+    position: absolute;
+    margin-left: 300px;
+}
+
+header {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#main-doc header {
+    text-align: left;
+}
+
+nav li {
+    color: grey;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 815px) {
+    nav ul {
+        height: 207px;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        z-index: 1;
+    }
+
+    main {
+        position: relative;
+        margin-left: 0;
+    }
+}
