@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    img {
+      width: 300px;
+    }
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    position: fixed;
+    background-color: blue;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
